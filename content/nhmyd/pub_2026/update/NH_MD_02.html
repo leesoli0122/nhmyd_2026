@@ -19,8 +19,8 @@
                 <!-- 자산 카테고리 탭 -->
                 <div class="tab-line">
                     <div class="tab-line__list" role="tablist" aria-label="자산 카테고리" id="assetTabList">
-                        <button type="button" id="assetTab-liquidity" class="tab-line__item tab-line__item--active" role="tab" aria-selected="true" tabindex="0">예금</button>
-                        <button type="button" id="assetTab-invest" class="tab-line__item" role="tab" aria-selected="false" tabindex="-1">투자</button>
+                        <button type="button" id="assetTab-liquidity" class="tab-line__item" role="tab" aria-selected="false" tabindex="-1">예금</button>
+                        <button type="button" id="assetTab-invest" class="tab-line__item tab-line__item--active" role="tab" aria-selected="true" tabindex="0">투자</button>
                         <button type="button" id="assetTab-pension" class="tab-line__item" role="tab" aria-selected="false" tabindex="-1">연금</button>
                         <button type="button" id="assetTab-loan" class="tab-line__item" role="tab" aria-selected="false" tabindex="-1">대출</button>
                     </div>
@@ -34,7 +34,7 @@
                     <div class="asset-hero-swiper swiper-container" id="assetHeroSwiper">
                         <div class="swiper-wrapper">
                             <!-- 예금 -->
-                            <div class="swiper-slide" data-category-label="예금" aria-hidden="false">
+                            <div class="swiper-slide" data-category-label="예금" aria-hidden="true">
                                 <div class="hero">
                                     <div class="hero__flip">
                                         <div class="hero__face hero__face--front hero__face--redesign">
@@ -171,7 +171,7 @@
                             </div>
 
                             <!-- 투자 -->
-                            <div class="swiper-slide" data-category-label="투자" aria-hidden="true">
+                            <div class="swiper-slide" data-category-label="투자" aria-hidden="false">
                                 <div class="hero">
                                     <div class="hero__flip">
                                         <div class="hero__face hero__face--front hero__face--redesign">
@@ -569,7 +569,7 @@
                 </div>
 
                 <!-- [예금] -->
-                <div class="asset-tab-panel" data-tab-panel="liquidity">
+                <div class="asset-tab-panel" data-tab-panel="liquidity" hidden>
                     <section class="md-section">
                         <h2 class="md-section__title">인사이트</h2>
                         <div class="md-card insight-list">
@@ -713,7 +713,7 @@
                 </div>
 
                 <!-- [투자] -->
-                <div class="asset-tab-panel" data-tab-panel="invest" hidden>
+                <div class="asset-tab-panel" data-tab-panel="invest">
                     <section class="md-section">
                         <h2 class="md-section__title">인사이트</h2>
                         <div class="md-card insight-list">
