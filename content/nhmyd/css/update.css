@@ -258,8 +258,8 @@
 .nds .demo{vertical-align:top;margin-bottom:var(--spacing-16)}
 .nds .note {margin:var(--spacing-20) 0;background-color:var(--color-bg-banner);border-radius:var(--radius-8);padding:var(--spacing-12) var(--spacing-16);font-size:var(--type-size-14);line-height:20px;color:var(--color-font-3)}
 .nds .bt-1{border-top:1px solid var(--color-border-3) !important}
-.nds.nhasset .tooltipWrap .tooltipCont > h3, .nds.nhasset .tooltipWrap .tooltipCont > ul > li {color:var(--color-font-1)}
-.nds.nhasset .tooltipWrap .tooltipCont > ul > li{line-height:22px}
+.nds.nhasset .tooltipWrap .tooltipCont > h3 {color:var(--color-font-1)}
+.nds.nhasset .tooltipWrap .tooltipCont > ul > li{line-height:22px; color:var(--color-font-3)}
 .nds.nhasset .tooltipWrap .tooltipCont{width:100% !important;border:1px solid var(--color-bg-default);color:var(--color-font-1)}
 /* ---- 간격 가이드(세로 스택, 클래스명 = gap 값) ---- */
 [class^="stack--"] {display:flex;flex-direction:column;width:100%}
